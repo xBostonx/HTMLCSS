@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <link rel="stylesheet" href="styles/style.css">
+        <link rel="shortcut icon" href="/images/dscmrk.png" type="image/png">
+        <meta charset="UTF-8">
+        <title>Контакты</title>
+    </head>
+    <body>
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="catalog.html">Каталог</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+        </ul>
+    </div>
+    <hr>
+    <h2>Напишите нам</h2>
+    <fieldset>
+        <legend id="backform">Форма обратной связи</legend>
+        <form action="contacts.html" method="post">
+            <input type="text" maxlength="30" name="user_name" placeholder="Имя" required>
+            <br>
+            <input type="email" name="user_email" placeholder="Email" required>
+            <br>
+            <input type="text" maxlength="40" name="message_theme" placeholder="Тема">
+            <br>
+            <label id="your_msg" for="msg_contentid">Ваше сообщение:</label>
+            <br>
+            <textarea maxlength="2000" id="msg_contentid" name="message_content" placeholder="Введите текст..."
+                      required></textarea>
+            <br>
+            <input type="submit" name="send_btn"></form>
+    </fieldset>
+    <h2>Адрес</h2>
+    <fieldset id="adrs"> Наш телефон: +79019919999
+        <br> Наш адрес: г. Москва, ул. Дмитровская, д.&nbsp;31
+        <br> Наш email: phpmyadmin@gamestation.ru
+    </fieldset>
+    <script type="text/javascript" charset="utf-8" async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5a1a114397a051067393a9cc1a08313a4c17d3f4ff98a6a2ff929aee2af54852&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"></script>
+    <hr>
+    <div class="footer">&copy;&nbsp;&laquo;Все права защищены&raquo;</div>
+    </body>
+</html>
