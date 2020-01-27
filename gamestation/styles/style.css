@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Kurale&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap');
+
+body{
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.menu a, #your_msg, #backform, #adrs{
+    color: firebrick;
+    font-family: 'Kurale', serif;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.menu li{
+    list-style: none;
+}
+
+#head_name{
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+}
+
+#index_img{
+    width: 800px;
+    height: 400px;
+}
+
+.prod_page h4{
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.shrt_dsc{
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.full_dsc{
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.prod_page{
+    list-style-image: url(../images/dscmrk.png);
+    list-style-position:inside;
+
+}
+
+.prod_param li{
+    text-align: left;
+    font-family: 'Kurale', serif;
+    font-size: 14px;
+    color: rebeccapurple;
+}
+
+.prod_img{
+    border-style: double;
+    border-color: black;
+    border-radius: 5px;
+}
+
+h2 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 25px;
+}
+
+script{
+    background-color:  none;
+}
+
+.menu ul{
+    padding: 0px;
+}
+
+.catalog a{
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 15px;
+}
+
+.catalog div{
+}
+
+input[name="user_name"], [name="user_email"], [name="message_theme"] {
+    background-color: beige;
+    height: 25px;
+    width: 300px;
+    font-size: 15px;
+    color: brown;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+#msg_contentid{
+    background-color: beige;
+    height: 200px;
+    width: 600px;
+    font-size: 13px;
+    color: brown;
+    font-family: 'Rubik Mono One', sans-serif;
+}
