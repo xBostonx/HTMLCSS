@@ -2,47 +2,55 @@
 @import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Rubik+Mono+One&display=swap');
 
-body{
+body {
     background-color: #f8f8f8;
     text-align: center;
 }
 
-.menu a, #your_msg, #backform, #adrs{
+.menu a,
+#your_msg,
+#backform,
+#adrs {
     color: firebrick;
     font-family: 'Kurale', serif;
     font-size: 20px;
     font-weight: 900;
 }
 
-.menu li{
+.menu li {
     list-style: none;
+    display: inline;
 }
 
-#head_name{
+.menu li:nth-child(2) {
+    margin: 80px;
+}
+
+#head_name {
     font-family: 'Monoton', cursive;
     font-size: 60px;
 }
 
-#index_img{
+#index_img {
     width: 800px;
     height: 400px;
 }
 
-.prod_page h4{
+.prod_page h4 {
     color: black;
     font-size: 18px;
     font-weight: 400;
     background-color: #eaeaea;
 }
 
-.shrt_dsc{
+.shrt_dsc {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
 }
 
-.full_dsc{
+.full_dsc {
     color: #484343;
     font-size: 16px;
     font-weight: 400;
@@ -50,23 +58,26 @@ body{
     text-align: left;
 }
 
-.prod_page{
+.prod_page {
     list-style-image: url(../images/dscmrk.png);
-    list-style-position:inside;
-
+    list-style-position: inside;
 }
 
-.prod_param li{
+.prod_param li {
     text-align: left;
     font-family: 'Kurale', serif;
     font-size: 14px;
     color: rebeccapurple;
 }
 
-.prod_img{
+.prod_img {
     border-style: double;
     border-color: black;
     border-radius: 5px;
+}
+
+.prod_img:hover {
+    border-color: transparent;
 }
 
 h2 {
@@ -74,36 +85,79 @@ h2 {
     font-size: 25px;
 }
 
-script{
-    background-color:  none;
+script {
+    background-color: none;
 }
 
-.menu ul{
+.menu ul {
     padding: 0px;
 }
 
-.catalog a{
+.catalog a {
     font-family: 'Rubik Mono One', sans-serif;
     font-size: 15px;
 }
 
-.catalog div{
-}
-
-input[name="user_name"], [name="user_email"], [name="message_theme"] {
-    background-color: beige;
+input[name="user_name"],
+[name="user_email"],
+[name="message_theme"] {
     height: 25px;
     width: 300px;
-    font-size: 15px;
-    color: brown;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 17px;
 }
 
-#msg_contentid{
-    background-color: beige;
+#msg_contentid {
     height: 200px;
     width: 600px;
     font-size: 13px;
+}
+
+.menu a:hover {
+    color: lawngreen;
+}
+
+#logo_gs {
+    display: inline;
+}
+
+#email:focus {
+    background-color: darkseagreen;
+}
+
+#backform_set input,
+textarea {
+    text-transform: capitalize;
+    font-family: 'Kurale', serif;
+    background-color: beige;
     color: brown;
-    font-family: 'Rubik Mono One', sans-serif;
+    font-weight: bold;
+}
+
+#table,
+table td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+#table {
+    margin: auto;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+td {
+    padding: 20px 10px;
+}
+
+.prod_page p:first-letter {
+    font-size: 24px;
+    color: red;
+}
+
+td:first-child {
+    background-color: indianred
+}
+
+#sndbtn {
+    font-size: 20px;
 }
