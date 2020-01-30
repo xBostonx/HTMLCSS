@@ -86,11 +86,11 @@ h2 {
 }
 
 script {
-    background-color: none;
+    background-color: transparent;
 }
 
 .menu ul {
-    padding: 0px;
+    padding: 0;
 }
 
 .catalog a {
