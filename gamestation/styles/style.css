@@ -20,6 +20,9 @@ body {
 .menu li {
     list-style: none;
     display: inline;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 5%;
 }
 
 .menu li:nth-child(2) {
@@ -36,6 +39,18 @@ body {
     height: 400px;
 }
 
+#logo_gs {
+    background-color: white;
+    border-radius: 5%;
+    opacity: 0.8;
+    margin-right: 10px;
+}
+
+.index_page #logo_gs {
+    margin-left: 50px;
+    margin-top: 1px;
+}
+
 .prod_page h4 {
     color: black;
     font-size: 18px;
@@ -43,11 +58,14 @@ body {
     background-color: #eaeaea;
 }
 
-.shrt_dsc {
+.short_dsc {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
+    overflow: hidden;
+    width: 800px;
+    padding: 50px;
 }
 
 .full_dsc {
@@ -56,6 +74,8 @@ body {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+    margin: 0 50px;
+    margin-bottom: 30px;
 }
 
 .prod_page {
@@ -68,12 +88,14 @@ body {
     font-family: 'Kurale', serif;
     font-size: 14px;
     color: rebeccapurple;
+    text-align: center;
 }
 
 .prod_img {
     border-style: double;
     border-color: black;
     border-radius: 5px;
+    
 }
 
 .prod_img:hover {
@@ -116,8 +138,8 @@ input[name="user_name"],
     color: lawngreen;
 }
 
-#logo_gs {
-    display: inline;
+.index_apge #logo_gs {
+    margin-left: 50px;
 }
 
 #email:focus {
@@ -155,9 +177,90 @@ td {
 }
 
 td:first-child {
-    background-color: indianred
+    background-color: indianred;
 }
 
 #sndbtn {
     font-size: 20px;
 }
+
+.index_page .container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.index_page .header {
+    height: 210px;
+    text-align: left;
+}
+
+.index_page .menu {
+    float: right;
+    margin-top: 80px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f3e5e5;
+    padding: 20px 50px 0 0;
+    text-align: right;
+}
+
+.img_ref {
+    margin-left: 400px;
+    margin-bottom: 50px;
+    float: left;
+}
+
+.first_pblock {
+    clear: both;
+}
+
+.prod_param {
+    clear: both;
+}
+
+.buy_btn {
+    width: 180px;
+    height: 40px;
+    color: firebrick;
+    font-family: 'Kurale', serif;
+    font-size: 25px;
+    font-weight: 900;
+    background-color: yellow;
+    border-radius: 8%;
+    border-style: double;
+    border-color: black;
+    border-radius: 5px;
+    display: inline-block;
+    padding-top: 20px;
+}
+
+.buy_btn:hover {
+    color: #eaeaea;
+    background-color: firebrick;
+}
+
+.buy_btn:active {
+    background-color: black;
+}
+
+.catalog div {
+    display: inline-block;
+    margin: 20px 50px;
+}
+
+.header {
+    background-image: url(../images/longimg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.catalog a{
+    color: firebrick;
+}
+
+.catalog a:visited{
+    color: darkorange;
+}
+
