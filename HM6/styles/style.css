@@ -1,0 +1,300 @@
+@font-face {
+    font-family: "Raleway Black";
+    src: url(../fonts/Raleway-Black.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Black Italic";
+    src: url(../fonts/Raleway-Black-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Bold";
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Bold Italic";
+    src: url(../fonts/Raleway-Bold-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Extra Bold";
+    src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: "Raleway Regular";
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Black Italic";
+    src: url(../fonts/Roboto-Black-Italic.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url(../fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, rgba(219, 238, 242, 1) 0%, rgba(143, 201, 212, 1) 100%);
+}
+
+.headerBlock {
+    top: -1px;
+    height: 700px;
+    background: url("../images/indexBack.jpg");
+    background-size: cover;
+}
+
+.headerContent {
+    width: 1170px;
+    height: inherit;
+    margin: 0 auto;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    width: 125px;
+    height: 111px;
+    left: 69px;
+    top: 24px;
+    background: url("../images/surfhouse_logo.png");
+}
+
+.socIncons {
+    width: 30px;
+    position: absolute;
+    left: 990px;
+    top: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.33333em;
+}
+
+.socIncons i {
+    color: white;
+    margin: 0 6px;
+}
+
+.welcomeBox {
+    position: absolute;
+    width: 270px;
+    height: 300px;
+    top: 336px;
+    background: #FFF51F;
+    padding: 82px 25px 0 25px;
+    box-sizing: border-box;
+    color: #333333;
+}
+
+.welcomeHeader {
+    position: absolute;
+    left: 26px;
+    top: 83px;
+    font-family: "Raleway Bold", sans-serif;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 30px;
+    display: flex;
+    text-transform: uppercase;
+}
+
+.welcomeText {
+    position: absolute;
+    width: 240px;
+    height: 56px;
+    left: 23px;
+    top: 161px;
+    right: 30px;
+    font-family: "Raleway Bold Italic", sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 14px;
+}
+
+.newsBlock {
+    position: absolute;
+    width: 313px;
+    height: 169px;
+    left: 1265px;
+    top: 250px;
+    color: #FFF51F;
+}
+
+.newsHeader {
+    font-family: "Raleway Extra Bold", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 34px;
+}
+
+.newsText {
+    font-family: "Raleway Regular", sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 10px;
+}
+
+.buyNowBtn {
+    position: absolute;
+    width: 124px;
+    height: 49px;
+    background: #FFF51F;
+    text-align: center;
+    margin-top: 61px;
+}
+
+.buyNowBtn a {
+    position: absolute;
+    width: 96px;
+    height: 10px;
+    margin: 20px 29px;
+    font-family: "Raleway Black", sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: flex-end;
+    color: #000000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.contentBlock {
+    display: block;
+    width: 1170px;
+    height: inherit;
+    margin: 0 auto;
+    position: relative;
+}
+
+.menuBlock {
+    float: left;
+    width: 270px;
+    margin-top: -20px;
+}
+
+.menuBlock ul {
+    background-color: #26d2fc;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menuBlock a {
+    display: block;
+    height: 43px;
+    line-height: 43px;
+    text-transform: uppercase;
+    font-family: "Roboto Black", sans-serif;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    padding: 0 40px;
+}
+
+#menuBtn {
+    width: 270px;
+    height: 66px;
+    background-color: #333333;
+    padding: 0;
+}
+
+#menuBtn a {
+    color: white;
+}
+
+.menuBlock a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.menuFootImage {
+    margin-top: 30px;
+    height: 300px;
+    border: 10px solid white;
+    box-sizing: border-box;
+    position: relative;
+    background: url("../images/store.jpg");
+    width: 100%;
+}
+
+.nowOpen {
+    position: absolute;
+    font-family: "Raleway Black Italic", sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    top: 129px;
+    left: 142px;
+    color: #333;
+}
+
+.productsCatalog {
+    float: right;
+    height: 1300px;
+    width: 870px;
+    margin-top: -20px;
+}
+
+.newProd {
+    background: #f8f8f8;
+    width: 845px;
+    height: 78px;
+}
+
+.newProd span {
+    color: #707070;
+    font-family: "Roboto Black Italic", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 0 25px;
+    line-height: 78px;
+}
+
+.productItem {
+    width: 270px;
+    height: 320px;
+    background: #f8f8f8;
+    margin: 30px 15px 0 0;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.prodImg {
+    width: 250px;
+    height: 235px;
+    margin-bottom: 20px;
+}
+
+.prodName {
+    width: 155px;
+    font-family: "Roboto Black Italic", sans-serif;
+    font-size: 14px;
+    color: #333;
+    float: left;
+}
+
+.prodPrice {
+    float: right;
+    font-family: "Roboto Black Italic", sans-serif;
+    color: #333;
+    text-align: right;
+    overflow: hidden;
+}
