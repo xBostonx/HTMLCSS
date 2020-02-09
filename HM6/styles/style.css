@@ -162,15 +162,15 @@ body {
 
 .buyNowBtn a {
     position: absolute;
-    width: 96px;
-    height: 10px;
-    margin: 20px 29px;
+    width: 68px;
+    height: 50px;
+    padding: 0 29px;
     font-family: "Raleway Black", sans-serif;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 50px;
     display: flex;
     align-items: flex-end;
-    color: #000000;
+    color: #000;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -178,7 +178,6 @@ body {
 .contentBlock {
     display: block;
     width: 1170px;
-    height: inherit;
     margin: 0 auto;
     position: relative;
 }
@@ -246,18 +245,17 @@ body {
 
 .productsCatalog {
     float: right;
-    height: 1300px;
     width: 870px;
     margin-top: -20px;
 }
 
-.newProd {
+.newProd, .topProd, .saleProd {
     background: #f8f8f8;
-    width: 845px;
+    width: 799px;
     height: 78px;
 }
 
-.newProd span {
+.newProd, .topProd, .saleProd span {
     color: #707070;
     font-family: "Roboto Black Italic", sans-serif;
     font-size: 22px;
@@ -291,10 +289,240 @@ body {
     float: left;
 }
 
-.prodPrice {
+.prodPrice, .oldPrice {
     float: right;
     font-family: "Roboto Black Italic", sans-serif;
     color: #333;
     text-align: right;
     overflow: hidden;
 }
+
+.topProd, .saleProd {
+    margin-top: 25px;
+}
+
+.saleProd {
+    width: 848px;
+}
+
+.oldPrice {
+    color: #e24602;
+    font-size: 14px;
+    text-decoration: line-through;
+    margin-left: 120px;
+    float: right;
+}
+
+.brandsBlock {
+    position: relative;
+    top: 30px;
+    clear: both;
+    height: 160px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+    box-sizing: border-box;
+    width: 1150px;
+}
+
+.instaHead {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Roboto Black Italic", sans-serif;
+}
+
+.instaWrap {
+    height: 350px;
+    background-color: #eaeaea;
+    padding-top: 50px;
+    box-sizing: border-box;
+    width: 1150px;
+}
+
+.instaHead i {
+    font-size: 32px;
+    font-weight: bold;
+    position: relative;
+    top: 5px;
+}
+
+.instaContent {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.instaContent img {
+    border: 8px solid #fff;
+}
+
+.socNetBtns {
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    height: 150px;
+}
+
+.socNetBtns a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 3);
+    height: inherit;
+    text-decoration: none;
+    color: #fff;
+    font-size: 4rem;
+}
+
+.socNetBtns a:first-child {
+    background-color: #3b5997;
+}
+
+.socNetBtns a:nth-child(2) {
+    background: lightskyblue;
+}
+
+.socNetBtns a:nth-child(3) {
+    background: red;
+}
+
+.footer {
+    background-color: #373737;
+    color: #fff;
+    height: 390px;
+    display: block;
+}
+
+
+.footerInside {
+    width: 1150px;
+    margin: 0 auto;
+    min-height: 343px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 75px;
+    box-sizing: border-box;
+}
+
+.columnHead {
+    font-family: "Raleway Extra Bold", sans-serif;
+    font-size: 18px;
+    margin-bottom: 28px;
+}
+
+.columnLinks a {
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 12px;
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.newsLetter {
+    width: 270px;
+}
+
+.columnNewsLetter {
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 12px;
+}
+
+.newsLetterText {
+    margin-bottom: 31px;
+}
+
+.columnNewsLetter input {
+    background-color: #fff51f;
+    width: 180px;
+    height: 30px;
+    outline: none;
+    border: none;
+    padding: 0 5px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.columnNewsLetter button {
+    width: 71px;
+    height: 30px;
+    background: #000;
+    color: #fff;
+    font-family: "Roboto Regular", sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: 0;
+    outline: none;
+}
+
+.columnNewsLetter button:hover {
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.cardsWrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.about {
+    width: 232px;
+    font-family: "Roboto Regular", sans-serif;
+    margin-right: 10px;;
+}
+
+.aboutText {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.aboutPhone {
+    font-size: 14px;
+    margin-top: 14px;
+}
+
+.aboutPhone span,
+.aboutEmail span {
+    margin-right: 10px;
+}
+
+.aboutEmail {
+    margin-top: 14px;
+    color: #faef03;
+    font-size: 14px;
+}
+
+.footerCopyrights {
+    background-color: black;
+    height: 50px;
+}
+
+.footerCopyrightsInside {
+    width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+.footerCopySign {
+    float: left;
+    font-size: 12px;
+    font-family: "Roboto Regular", sans-serif;
+}
+
+.footerSocials {
+    float: right;
+    justify-content: space-between;
+}
+
+.footerSocials i {
+    margin: 0 5px;
+}
+
